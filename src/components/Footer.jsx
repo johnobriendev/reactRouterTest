@@ -1,11 +1,12 @@
 import React from "react";
+import "./styles/Footer.css"
 
 const Footer = () => {
   return (
-    <footer>
+    <div className="footer">
       <p>Footer</p>
       {/* Add social media icons here */}
-    </footer>
+    </div>
   );
 };
 
